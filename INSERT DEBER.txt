@@ -1,0 +1,16 @@
+CREATE TABLE ActividadesInformesAprendizaje (
+   id INT NOT NULL,
+   tabla VARCHAR(10) NULL,
+   ruedas VARCHAR(10) NULL,
+   eje VARCHAR(10) NULL,
+   material VARCHAR(10) NULL,
+   PRIMARY KEY (id)
+);
+
+
+insert into skate (tabla,ruedas,eje,material)
+values('table','cuatro','dos','madera');
+
+ALTER TABLE skate ADD COLUMN nombres CHARACTER VARYNG(10)
+
+ALTER TABLE skate ADD COLUMN nombres CHARACTER SET NOT NULL
